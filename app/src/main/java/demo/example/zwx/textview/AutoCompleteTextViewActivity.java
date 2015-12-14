@@ -25,7 +25,7 @@ public class AutoCompleteTextViewActivity extends Activity {
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_multichoice,arr);
 
 //        ArrayAdapter<String> adapter = new ArrayAdapter<String>
-//                (this,android.R.layout.select_dialog_item, arr);
+//                (this,android.R.ashen_bg.select_dialog_item, arr);
 
         autocomplete.setThreshold(3);
         autocomplete.setAdapter(adapter);

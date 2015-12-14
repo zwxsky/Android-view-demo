@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="demo.example.zwx.textview.layout.FrameLayoutActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="first"
+        android:background="#985765"
+        android:layout_height="200dp"
+        android:layout_width="200dp"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:background="#785435"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView5"
+
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="dp"
+        android:background="#564238"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView6"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#697524"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:onClick="showProcess"/>
+
+</FrameLayout>

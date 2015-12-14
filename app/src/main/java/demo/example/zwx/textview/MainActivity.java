@@ -8,6 +8,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import demo.example.zwx.textview.Intent.FActivity;
+import demo.example.zwx.textview.application.CalculateActivity;
+import demo.example.zwx.textview.control.ListViewActivity;
+import demo.example.zwx.textview.layout.TableLayoutActivity;
+import demo.example.zwx.textview.layout.FrameLayoutActivity;
+import demo.example.zwx.textview.layout.RelativeActivity;
+
 public class MainActivity extends ActionBarActivity {
 
     @Override
@@ -100,6 +107,33 @@ public class MainActivity extends ActionBarActivity {
         startActivity(new Intent(this,MultiAutoCompleteTextViewActivity.class));
     }
 
+    public void showRelativeActivity(View view){
 
+        startActivity(new Intent(this, RelativeActivity.class));
+    }
+
+    public void showFrameLayoutActivity(View view){
+
+        startActivity(new Intent(this, FrameLayoutActivity.class));
+    }
+
+    /*public  void showCalculator(View view){
+        startActivity(new Intent(this,TableLayoutActivity.class));
+    }*/
+
+    public void studyIntent(View view){
+
+        startActivity(new Intent(this, FActivity.class));
+    }
+
+    public void showCalculate(View view){
+
+        startActivity(new Intent(this, CalculateActivity.class));
+    }
+
+    public void showListview(View view){
+
+        startActivity(new Intent(this, ListViewActivity.class));
+    }
 
 }

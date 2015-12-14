@@ -31,4 +31,20 @@
     <string name="title_activity_auto_complete_text">AutoCompleteTextActivity</string>
     <string name="title_activity_multi_auto_complete_text_view">MultiAutoCompleteTextViewActivity
     </string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_frame_layout">FrameLayoutActivity</string>
+    <string name="title_activity_table_layout">TableLayoutActivity</string>
+    <string name="calculator">计算器</string>
+    <string name="study_intent">学习intent</string>
+    <string name="title_activity_calculate">CalculateActivity</string>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+
+    </declare-styleable>
+    <string name="title_activity_circle">CircleActivity</string>
+    <string name="title_activity_badger">BadgerActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
 </resources>
