@@ -27,7 +27,7 @@ public class FActivity extends Activity{
         setContentView(R.layout.factivity);
         /*
         通过点击bt1实现页面跳转
-        1.startActivity 的方式来实现
+        pic1.startActivity 的方式来实现
 
          */
 

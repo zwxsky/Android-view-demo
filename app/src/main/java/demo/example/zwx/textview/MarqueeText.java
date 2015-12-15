@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 /**
- * Created by luo on 15-11-2.
+ * Created by luo on 15-11-pic2.
  */
 public class MarqueeText extends TextView {
     public MarqueeText(Context context) {

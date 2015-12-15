@@ -1,7 +1,7 @@
 package demo.example.zwx.textview.View;
 
 /**
- * Created by luo on 15-12-2.
+ * Created by luo on 15-12-pic2.
  */
 import android.content.Context;
 import android.content.res.TypedArray;

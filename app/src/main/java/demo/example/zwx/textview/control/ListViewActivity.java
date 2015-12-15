@@ -43,12 +43,12 @@ public class ListViewActivity extends ActionBarActivity implements AdapterView.O
         imgList = (ListView)findViewById(R.id.imglist);
 
 
-//        1.新建一个适配器
+//        pic1.新建一个适配器
 //        arrayAdapter(上下文，当前listview加载的每一个列表项所对应的布局文件，数据源)
         String[] arr_data = {"student1","student2","student3"};
-//      2.适配器加载数据
+//      pic2.适配器加载数据
         arr_adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, arr_data);
-        //3.加载到视图
+        //pic3.加载到视图
 //        listView.setAdapter(arr_adapter);
 
 

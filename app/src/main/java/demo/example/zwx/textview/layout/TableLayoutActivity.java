@@ -135,36 +135,36 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
 
     public void button1(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"1");
+        textView2.setText(textView2.getText()+"pic1");
 
     }
 
     public void button2(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"2");
+        textView2.setText(textView2.getText()+"pic2");
 
     }
 
     public void button3(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"3");
+        textView2.setText(textView2.getText()+"pic3");
 
     }
 
     public void button4(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"4");
+        textView2.setText(textView2.getText()+"pic4");
 
     }
     public void button5(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"5");
+        textView2.setText(textView2.getText()+"pic5");
 
     }
 
     public void button6(View view){
         TextView textView2 = (TextView) findViewById(R.id.textView2);
-        textView2.setText(textView2.getText()+"6");
+        textView2.setText(textView2.getText()+"pic5");
 
     }
     public void button7(View view){
@@ -192,7 +192,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
            /* case R.id.btnBackspace:
                 String myStr = tvResult.getText().toString();
                 try {
-                    tvResult.setText(myStr.substring(0, myStr.length() - 1));
+                    tvResult.setText(myStr.substring(0, myStr.length() - pic1));
                 } catch (Exception e) {
                     tvResult.setText("");
                 }
@@ -218,7 +218,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString1 = tvResult.getText().toString();
-                myString1 += "1";
+                myString1 += "pic1";
                 tvResult.setText(myString1);
                 break;
             case R.id.btn2:
@@ -227,7 +227,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString2 = tvResult.getText().toString();
-                myString2 += "2";
+                myString2 += "pic2";
                 tvResult.setText(myString2);
                 break;
             case R.id.btn3:
@@ -236,7 +236,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString3 = tvResult.getText().toString();
-                myString3 += "3";
+                myString3 += "pic3";
                 tvResult.setText(myString3);
                 break;
             case R.id.btn4:
@@ -245,7 +245,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString4 = tvResult.getText().toString();
-                myString4 += "4";
+                myString4 += "pic4";
                 tvResult.setText(myString4);
                 break;
             case R.id.btn5:
@@ -254,7 +254,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString5 = tvResult.getText().toString();
-                myString5 += "5";
+                myString5 += "pic5";
                 tvResult.setText(myString5);
                 break;
             case R.id.btn6:
@@ -263,7 +263,7 @@ public class TableLayoutActivity extends ActionBarActivity implements View.OnCli
                     isClickEqu = false;
                 }
                 String myString6 = tvResult.getText().toString();
-                myString6 += "6";
+                myString6 += "pic5";
                 tvResult.setText(myString6);
                 break;
             case R.id.btn7:
